@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+*{
+    color: white;
+    font-family: Lato;
+}
+body {
+    background-image:url("../imagenes/fondo_opacidad1.jpg");
+    background-attachment: fixed;
+}
+
+ul{
+    list-style-type: none;
+    list-style: none;
+    display: inline-block;
+    transition: transform .8s;   
+}
+  
+li{
+    float: left;
+  
+}
+  
+li a{
+    display: inherit;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  
+  
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 20px;
+    border-radius: 50px;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+
+.Titulo{
+    text-align: center; 
+    font-size: 30px;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+  
+.columna {
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+    text-align: center;
+}
+  
+.fila::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columna2 {
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+    margin-top: 50px;
+}
+
+
+
+figure{
+    text-align: center;
+}
+
+/* ----------- Small Phones ----------- */
+@media only screen 
+   and (min-width : 220px) {
+    
+    .foto{
+        font-size: 90px;
+    }
+   
+
+}
+
+/* ----------- smart phones ----------- */
+@media only screen 
+   and (min-width : 320px) {
+
+
+}
+
+
+/* ----------- Tablets ----------- */
+@media only screen 
+   and (min-width : 768px) {
+    
+}
+
+/* ----------- Laptop ----------- */
+@media only screen 
+   and (min-width : 1200px) {
+    
+}
+
+/* ----------- Desktop ----------- */
+@media only screen 
+   and (min-width : 1600px) {
+
+}
