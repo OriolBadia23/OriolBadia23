@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>checkbox.html</title>
+    <link rel="stylesheet" href="CSS/Contacto.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Pàgina principal</a></li>
+        <li><a href="Portafolio.html">Portafoli</a></li>
+        <li><a href="Contacto.html">Contacte</a></li>
+    </ul>
+
+    <br>
+
+    <section class="container">
+        <h2>Formulari contacte</h2>
+        <div class="row">
+            <article class="col s6 offset-s3">
+                <h6>Hola! Si em vols fer qualsevol consulta, aqui et deixo aquest formulari per que em puguis contactar!
+                </h6>
+
+                <br>
+
+                <form method="POST" action="formulario-contacto.php">
+                    <div class="input-field">
+                        <label id="nombre">Nom</label>
+                        <input type="text" name="nombre" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label id="apellido">Cognom</label>
+                        <input type="text" name="apellido" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label id="email">Correu electronic</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label id="mensaje">Missatge</label>
+                        <textarea name="mensaje" rows="10" class="materialize-textarea" required></textarea>
+                    </div>
+
+                    <p class="center-align">
+                        <button class="waves-effect waves-light btn" type="submit"><i
+                                class="material-icons right"></i>envia</button>
+                    </p>
+
+                </form>
+
+            </article>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+</body>
+
+</html>
